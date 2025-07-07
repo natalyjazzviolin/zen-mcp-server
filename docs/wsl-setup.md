@@ -59,6 +59,10 @@ sudo apt install -y python3.12-venv python3.12-dev
 python3 -m pip install --upgrade pip
 ```
 
+### .env Issues
+
+- Make sure to place the `.env` in the `zen-mcp-server` directory.
+
 ### Path Issues
 
 - Always use the full WSL path for MCP configuration (e.g., `/home/YourName/zen-mcp-server/`)
